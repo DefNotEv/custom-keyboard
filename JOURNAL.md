@@ -23,3 +23,7 @@ who knew you can find this stuff on amazon
 | switches    | akko steller rose     | https://a.co/d/99Zb7yo | $49.69 for 90                    |
 | keycaps     | pig keycaps!!!        | https://a.co/d/ibvI8kw | $22.94 for 131                   |
 | stabilizers | costar mx stabilizers | https://a.co/d/9GnJFxL | $11.70 for 1 6u and 4 2u         |
+
+this keyboard is totally gonna be for the girlies like can we take a moment and appreciate how cute these are:
+![switches](images/switches.png)
+![keycaps](images/keycaps.png)
