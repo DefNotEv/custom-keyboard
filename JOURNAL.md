@@ -25,4 +25,12 @@ who knew you can find this stuff on amazon
 | stabilizers | costar mx stabilizers | https://a.co/d/9GnJFxL | $11.70 for 1 6u and 4 2u         |
 
 this keyboard is totally gonna be for the girlies like can we take a moment and appreciate how cute these are:
-![keycaps](images/keycaps.jpg)
+
+
+## 3:10
+i forgot how to use kicad i'm crashing out.
+
+anyway i added a timelapses folder so you can see that i'm actually working 
+
+## 5:19
+i've been following this really good tutorial https://youtu.be/6Z49bynRqj8 and i'm losing my mind. 06-18_519PM vid is TWO HOURS OF TIMELAPSE BRUH
