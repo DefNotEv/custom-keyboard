@@ -15,3 +15,11 @@ Anyway my goals for today:
 - Finish designing the PCB
 - Hopefully finish designing the case
 - Actually remember to journal
+
+## 2:27 PM
+who knew you can find this stuff on amazon
+| part        | name                  | website                | cost (converted from cad to usd) |
+|-------------|-----------------------|------------------------|----------------------------------|
+| switches    | akko steller rose     | https://a.co/d/99Zb7yo | $49.69 for 90                    |
+| keycaps     | pig keycaps!!!        | https://a.co/d/ibvI8kw | $22.94 for 131                   |
+| stabilizers | costar mx stabilizers | https://a.co/d/9GnJFxL | $11.70 for 1 6u and 4 2u         |
