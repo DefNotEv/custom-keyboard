@@ -40,3 +40,8 @@ i've been following this really good tutorial https://youtu.be/6Z49bynRqj8 and i
 ## 8:26 PM
 i finally figured out how to make a pcb 😭. why are keyboards so much more complicated than TEJ2O. anyway look at this!!! 4 hours of my life!!!
 ![pcb](images/pcb1.png)
+
+# June 20th
+
+## 11:39 AM
+i didn't forget about this i've been struggling to trace the pcb for the past 24 hours i have no idea what i'm doing i'll update this journal when i figure it out i'm losing my mind
