@@ -67,3 +67,21 @@ nvm i messed up the wiring i gotta redo it give me another hour. on a side note,
 ## 10:44 PM 
 
 OK CHAT WE OFFICIALLY GOOD TIME TO LOCK IN FOR CAD
+
+# June 22nd
+
+## 1:53 AM
+hey i finished my cad and my pcb. final pricing and files or whatever is finally done. 
+
+| part        | name                  | website                | cost (converted from cad to usd) |
+|-------------|-----------------------|------------------------|----------------------------------|
+| switches    | akko steller rose     | https://a.co/d/99Zb7yo | $49.69 for 90                    |
+| keycaps     | pig keycaps!!!        | https://a.co/d/ibvI8kw | $22.94 for 131                   |
+| stabilizers | costar mx stabilizers | https://a.co/d/9GnJFxL | $11.70 for 1 6u and 4 2u         |
+| pcb         | custom from jlcpcb    | https://jlcpcb.com     | $14.60                           |
+| case        | custom from jlcpcb    |                        | $16.86                           |
+| plate       | also jlcpcb           |                        | $3.69                            |
+
+TOTAL: $119.48 USD
+
+although let's be real i'll probably go over. anyway i have to teach kids about the bible in 6 hours. i can sleep in peace. goodnight.

@@ -1,0 +1,10 @@
+### Footprint positions - created on 2025-06-22T01:13:36-0400 ###
+### Printed by KiCad version 9.0.2
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                          Package                                   PosX       PosY       Rot  Side
+J1        USB_C_Receptacle_USB2.0_16P  USB_C_Receptacle_HRO_TYPE-C-31-M-12    88.1063  -130.1750    0.0000  top
+R1        5.1k                         R_0402_1005Metric                      86.2350  -123.8250  180.0000  top
+R2        5.1k                         R_0402_1005Metric                      90.7712  -123.8250    0.0000  top
+RST1      SW_Push                      SW_SPST_TL3305B                       119.8562  -123.8250    0.0000  top
+## End
