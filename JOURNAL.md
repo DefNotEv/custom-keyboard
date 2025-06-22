@@ -7,7 +7,7 @@ created_at: "2025-06-18"
 
 # June 18th 
 
-## 1:51 PM
+### 1:51 PM
 What's up everyone! My physics exam is in 5 days and I really really really don't want to study so I'm gonna do all of this in like two days. I know I'm not suppposed to be rushing this and I'm supposed to have a "smaller, more consistent" journal for a "more realistic story" so I'm sorry in advance!
 
 Anyway my goals for today:
@@ -16,7 +16,7 @@ Anyway my goals for today:
 - Hopefully finish designing the case
 - Actually remember to journal
 
-## 2:27 PM
+### 2:27 PM
 who knew you can find this stuff on amazon
 | part        | name                  | website                | cost (converted from cad to usd) |
 |-------------|-----------------------|------------------------|----------------------------------|
@@ -29,15 +29,15 @@ this keyboard is totally gonna be for the girlies like can we take a moment and 
 ![keycaps](images/keycaps.jpg)
 
 
-## 3:10 PM
+### 3:10 PM
 i forgot how to use kicad i'm crashing out.
 
 anyway i added a timelapses folder so you can see that i'm actually working 
 
-## 5:19 PM
+### 5:19 PM
 i've been following this really good tutorial https://youtu.be/6Z49bynRqj8 and i'm losing my mind. 06-18_519PM vid is TWO HOURS OF TIMELAPSE 
 
-## 8:26 PM
+### 8:26 PM
 i finally figured out how to make a pcb 😭. why are keyboards so much more complicated than TEJ2O. anyway look at this!!! 4 hours of my life!!!
 ![pcb](images/pcb1.png)
 
@@ -45,14 +45,14 @@ i finally figured out how to make a pcb 😭. why are keyboards so much more com
 
 # June 20th
 
-## 11:39 AM
+### 11:39 AM
 i didn't forget about this i've been struggling to trace the pcb for the past 24 hours i have no idea what i'm doing i'll update this journal when i figure it out i'm losing my mind
 
 ### TOTAL TIME TODAY: 5 HOURS
 
 # June 21st
 
-## 8:52 PM
+### 8:52 PM
 it has come to my attention i have severely overestimated myself and we're gonna be compeltely switching up!!!! 
 
 well. the tutorial i was following has two parts and is supposed to have a part three. but it hasn't come out. so like. yeah. we are going to a basic 60% keyboard. much easier to wire. much easier for my mental health. i have the whole month to try and build a more complicated keyboard. so we're going to stick to the basics first. pro micro to make my life easier. i pinky swear i will make a tkl by the end of this though.
@@ -61,14 +61,14 @@ well. the tutorial i was following has two parts and is supposed to have a part 
 
 anyway yeah. how's that for documenting everything i do 😭
 
-## 9:53 PM
+### 9:53 PM
 I GOT IT! pcb is done now i have to waste my life doing cad. look at this though:
 ![pcb](images/pcb2.png)
 
-## 10:05 PM
+### 10:05 PM
 nvm i messed up the wiring i gotta redo it give me another hour. on a side note, can we please get wakatime on kicad because i could use this for the summer program thing 
 
-## 10:44 PM 
+### 10:44 PM 
 
 OK CHAT WE OFFICIALLY GOOD TIME TO LOCK IN FOR CAD
 
@@ -76,7 +76,7 @@ OK CHAT WE OFFICIALLY GOOD TIME TO LOCK IN FOR CAD
 
 # June 22nd
 
-## 1:53 AM
+### 1:53 AM
 hey i finished my cad and my pcb. final pricing and files or whatever is finally done. 
 
 | part        | name                  | website                | cost (converted from cad to usd) |
