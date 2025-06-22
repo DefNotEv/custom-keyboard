@@ -60,3 +60,6 @@ anyway yeah. how's that for documenting everything i do 😭
 ## 9:53 PM
 I GOT IT! pcb is done now i have to waste my life doing cad. look at this though:
 ![pcb](images/pcb2.png)
+
+## 10:05 PM
+nvm i messed up the wiring i gotta redo it give me another hour. on a side note, can we please get wakatime on kicad because i could use this for the summer program thing 🤧
