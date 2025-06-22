@@ -56,3 +56,7 @@ well. the tutorial i was following has two parts and is supposed to have a part 
 20 hours of my life bruh.
 
 anyway yeah. how's that for documenting everything i do 😭
+
+## 9:53 PM
+I GOT IT! pcb is done now i have to waste my life doing cad. look at this though:
+![pcb](images/pcb2.png)

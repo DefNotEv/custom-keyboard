@@ -535,6 +535,504 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_marbastlib-promicroish:Arduino_ProMicro"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ProMicro"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-xp-promicroish:ProMicro_USBup"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Symbol for an Arduino Pro Micro"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Arduino_ProMicro_0_0"
+				(pin bidirectional line
+					(at -12.7 13.97 0)
+					(length 2.54)
+					(name "D3-TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 11.43 0)
+					(length 2.54)
+					(name "D2-RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -6.35 0)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -8.89 0)
+					(length 2.54)
+					(name "E6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -11.43 0)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -13.97 0)
+					(length 2.54)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 11.43 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 8.89 180)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "F4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "F5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "F6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "F7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -8.89 180)
+					(length 2.54)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -11.43 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -13.97 180)
+					(length 2.54)
+					(name "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Arduino_ProMicro_1_0"
+				(pin bidirectional line
+					(at 12.7 13.97 180)
+					(length 2.54)
+					(name "B0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Arduino_ProMicro_1_1"
+				(rectangle
+					(start -10.16 16.51)
+					(end 10.16 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 48.26 74.93)
@@ -549,16 +1047,16 @@
 		(uuid "0096e358-25bd-4c14-a24e-30ad5adb4ddf")
 	)
 	(junction
-		(at 173.99 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00f7df66-9a57-48a1-803a-aa009ae203a7")
-	)
-	(junction
 		(at 193.04 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "018a74eb-cf21-4e7f-a5e0-259d18949a9c")
+	)
+	(junction
+		(at 34.29 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01b1d0a2-d975-442c-bdd9-f7287dcfa778")
 	)
 	(junction
 		(at 118.11 55.88)
@@ -571,12 +1069,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02e131cb-ec52-4aa7-a532-30aa25e8e1c2")
-	)
-	(junction
-		(at 201.93 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "030a4344-013d-43e3-8818-efb14e20987a")
 	)
 	(junction
 		(at 201.93 55.88)
@@ -651,28 +1143,10 @@
 		(uuid "24cebe15-b823-42ef-b70a-d25d03daa9cd")
 	)
 	(junction
-		(at 207.01 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bb7e632-30d0-4690-b75e-330ba261340c")
-	)
-	(junction
 		(at 62.23 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d0ef9cd-6c3e-4dba-b338-599ff1f594b7")
-	)
-	(junction
-		(at 87.63 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2df5d9e5-8952-4c4c-94e3-df870940b44a")
-	)
-	(junction
-		(at 165.1 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fad2a8b-ac77-4e2f-baa6-45fc5c542f9c")
 	)
 	(junction
 		(at 179.07 143.51)
@@ -693,12 +1167,6 @@
 		(uuid "31197f87-f7af-44fb-b622-0c25b5919562")
 	)
 	(junction
-		(at 129.54 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3308c57d-9e81-4c01-9a85-4fb04e9a0dd2")
-	)
-	(junction
 		(at 48.26 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -715,12 +1183,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34f42ec5-9d94-4cb0-9a30-1f98db97556c")
-	)
-	(junction
-		(at 160.02 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35ff87d2-ec91-4e28-a7a6-1bbd4150f707")
 	)
 	(junction
 		(at 151.13 143.51)
@@ -753,12 +1215,6 @@
 		(uuid "3f344b45-1f5e-4004-9ada-85d3a90c64ec")
 	)
 	(junction
-		(at 68.58 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f7f4a20-e570-4e31-9cff-ca239b2cac94")
-	)
-	(junction
 		(at 104.14 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -769,12 +1225,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41c9bd3a-6512-49e5-9921-490e3513e5b3")
-	)
-	(junction
-		(at 179.07 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "446d89b3-c99a-470e-a63f-7369cc355371")
 	)
 	(junction
 		(at 165.1 143.51)
@@ -799,6 +1249,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "481bc9e9-92e9-4a60-bbc9-8cd0ae39ea39")
+	)
+	(junction
+		(at 193.04 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48aff98f-ca44-4610-8565-048f29fffcc4")
 	)
 	(junction
 		(at 160.02 74.93)
@@ -831,22 +1287,10 @@
 		(uuid "4c3cc796-81b1-47f8-8df3-f2804629403a")
 	)
 	(junction
-		(at 187.96 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50375d7e-df59-4701-94c7-f4684f53f9dc")
-	)
-	(junction
 		(at 90.17 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "509cc14f-e925-43a9-a2fc-a35350a992ea")
-	)
-	(junction
-		(at 134.62 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50b2fc63-26fa-4340-9b4d-ce3be1842ddc")
 	)
 	(junction
 		(at 123.19 66.04)
@@ -915,12 +1359,6 @@
 		(uuid "673bddfd-fcee-47cb-aa95-36046bbe9453")
 	)
 	(junction
-		(at 73.66 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "675b4500-be9e-4710-adf5-f40c28245494")
-	)
-	(junction
 		(at 95.25 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -969,22 +1407,16 @@
 		(uuid "89364fe3-7100-4bb1-b57b-af46e651a0eb")
 	)
 	(junction
-		(at 59.69 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8aeb1422-2d6b-456a-bc23-c0d356fc80db")
-	)
-	(junction
 		(at 76.2 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8af43ab9-d1cc-4535-8256-9a47384afad7")
 	)
 	(junction
-		(at 193.04 46.99)
+		(at 207.01 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91d82211-bb80-4f57-a32f-b850db3d6980")
+		(uuid "908798aa-9e66-4c9f-bd8a-0297a2c3bfbe")
 	)
 	(junction
 		(at 132.08 74.93)
@@ -1017,28 +1449,10 @@
 		(uuid "9987b6ee-785f-47a1-ac22-fd513967f843")
 	)
 	(junction
-		(at 120.65 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a26870c-05a2-447f-8e3a-fd6b66da0b3b")
-	)
-	(junction
 		(at 62.23 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ad7ed34-ba39-40ad-83e5-b9616cea7760")
-	)
-	(junction
-		(at 143.51 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9eb652ab-c39c-42e6-9273-7a35fbaf9510")
-	)
-	(junction
-		(at 20.32 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a196a32c-e84a-4669-bf47-e259fab6e523")
 	)
 	(junction
 		(at 123.19 85.09)
@@ -1077,12 +1491,6 @@
 		(uuid "af166686-e88f-4eba-b0fb-1bcf30fa2967")
 	)
 	(junction
-		(at 40.64 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b10c69df-d602-48be-bce5-8ad39fa655f8")
-	)
-	(junction
 		(at 173.99 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1099,6 +1507,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b951e4bd-8c63-4bb1-878a-6bb7311783a4")
+	)
+	(junction
+		(at 193.04 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c359e4b9-5362-45bc-baaf-ff4ce53d254f")
 	)
 	(junction
 		(at 62.23 74.93)
@@ -1137,12 +1551,6 @@
 		(uuid "cf00f205-afc1-494c-8681-182b5800d85e")
 	)
 	(junction
-		(at 148.59 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfb51fa5-0840-468f-b11a-cef1ade5468b")
-	)
-	(junction
 		(at 160.02 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1155,22 +1563,10 @@
 		(uuid "d2e96f0f-a391-449a-b6c2-d77b4133beca")
 	)
 	(junction
-		(at 82.55 36.83)
+		(at 207.01 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d3014546-3138-410e-b7d9-c20c94ac9c1a")
-	)
-	(junction
-		(at 106.68 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5064333-b386-4a76-b96c-fed3bbd1f208")
-	)
-	(junction
-		(at 115.57 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6708f9a-3006-4fdb-8482-04efb855f171")
+		(uuid "d7340f16-0d6e-45dd-a264-d08d8e382cf4")
 	)
 	(junction
 		(at 123.19 124.46)
@@ -1209,12 +1605,6 @@
 		(uuid "e33a65df-61d8-437c-a140-a1ff7c9eba4a")
 	)
 	(junction
-		(at 101.6 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec15f954-bce4-40b9-8aac-4876e6a25717")
-	)
-	(junction
 		(at 151.13 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1225,12 +1615,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef2a834b-759d-4111-b16b-04bd7a2bd7ec")
-	)
-	(junction
-		(at 54.61 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f09acdf7-3971-4453-bede-aca1960ebb72")
 	)
 	(junction
 		(at 67.31 124.46)
@@ -1263,24 +1647,22 @@
 		(uuid "fc2f4408-9801-4747-be04-25e9a4b22c15")
 	)
 	(junction
-		(at 45.72 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe37ba5e-d0e6-4d23-a197-907f3da317ef")
-	)
-	(junction
 		(at 81.28 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fea10427-ae42-40ae-9545-bc2c7e8292d3")
 	)
 	(no_connect
-		(at 227.33 25.4)
-		(uuid "446298cb-64d0-4bb6-b521-7a787f888d73")
+		(at 271.78 45.72)
+		(uuid "0669f60f-702e-41a4-8068-bb75af7253e5")
+	)
+	(no_connect
+		(at 271.78 48.26)
+		(uuid "75cbd8c2-e187-4b6a-aaf8-d3930463c96a")
 	)
 	(wire
 		(pts
-			(xy 173.99 29.21) (xy 173.99 36.83)
+			(xy 173.99 29.21) (xy 173.99 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1430,26 +1812,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 29.21) (xy 201.93 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1433d2af-04ec-45c0-a21b-616ba1d98855")
-	)
-	(wire
-		(pts
-			(xy 207.01 46.99) (xy 218.44 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17426d2c-8be5-435c-8082-39203f800bd4")
-	)
-	(wire
-		(pts
 			(xy 109.22 66.04) (xy 123.19 66.04)
 		)
 		(stroke
@@ -1480,7 +1842,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 36.83) (xy 68.58 55.88)
+			(xy 68.58 29.21) (xy 68.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1872,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 55.88) (xy 115.57 36.83)
+			(xy 115.57 29.21) (xy 115.57 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1550,16 +1912,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 46.99) (xy 165.1 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "268e6906-47a5-472a-af98-5a6cd6c7f38d")
-	)
-	(wire
-		(pts
 			(xy 146.05 55.88) (xy 143.51 55.88)
 		)
 		(stroke
@@ -1577,16 +1929,6 @@
 			(type default)
 		)
 		(uuid "2761128e-801e-4f14-8f90-9f0026dc202d")
-	)
-	(wire
-		(pts
-			(xy 160.02 36.83) (xy 160.02 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2be7eb92-6e84-4d7a-a0b0-099bed6d7600")
 	)
 	(wire
 		(pts
@@ -1620,16 +1962,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 29.21) (xy 82.55 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "324b733e-862e-4c92-b254-d01b8cbbbda2")
-	)
-	(wire
-		(pts
 			(xy 173.99 55.88) (xy 173.99 74.93)
 		)
 		(stroke
@@ -1640,7 +1972,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 36.83) (xy 201.93 55.88)
+			(xy 201.93 29.21) (xy 201.93 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1680,13 +2012,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 55.88) (xy 143.51 36.83)
+			(xy 143.51 29.21) (xy 143.51 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b88b0c4-a8ef-4641-869e-074d8d06b8ad")
+	)
+	(wire
+		(pts
+			(xy 207.01 66.04) (xy 219.71 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f519176-4d14-4bf6-b78d-4bd3332a0be0")
 	)
 	(wire
 		(pts
@@ -1830,23 +2172,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 36.83) (xy 187.96 55.88)
+			(xy 187.96 29.21) (xy 187.96 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5cad19e2-3f52-4d37-893c-415376ef6476")
-	)
-	(wire
-		(pts
-			(xy 129.54 36.83) (xy 129.54 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d742890-cd9d-412a-bedf-8efe459dd8b3")
 	)
 	(wire
 		(pts
@@ -1860,16 +2192,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 36.83) (xy 173.99 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63552d26-8d93-48ce-8be7-85e6588fea4f")
-	)
-	(wire
-		(pts
 			(xy 62.23 55.88) (xy 62.23 74.93)
 		)
 		(stroke
@@ -1877,16 +2199,6 @@
 			(type default)
 		)
 		(uuid "65888803-eaed-49f5-ab9b-0a55aedad838")
-	)
-	(wire
-		(pts
-			(xy 187.96 29.21) (xy 187.96 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "667e1d20-4529-4f70-85d4-549a151e1ff9")
 	)
 	(wire
 		(pts
@@ -1900,23 +2212,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 29.21) (xy 115.57 36.83)
+			(xy 193.04 143.51) (xy 219.71 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6859e626-eadf-429a-b850-8f7fd54b95ca")
-	)
-	(wire
-		(pts
-			(xy 45.72 46.99) (xy 59.69 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "691aaef6-1aa3-48e2-9013-ce2921b761fd")
+		(uuid "6bdbbd69-9748-4a8d-ad3c-ef04183682b5")
 	)
 	(wire
 		(pts
@@ -1940,16 +2242,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 46.99) (xy 179.07 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d441188-0650-4fd1-9c1e-27f01bcba7de")
-	)
-	(wire
-		(pts
 			(xy 76.2 133.35) (xy 62.23 133.35)
 		)
 		(stroke
@@ -1960,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 29.21) (xy 160.02 36.83)
+			(xy 160.02 29.21) (xy 160.02 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1970,23 +2262,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 29.21) (xy 40.64 36.83)
+			(xy 40.64 29.21) (xy 40.64 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7049564b-c958-4226-ade0-11a69d038fc9")
-	)
-	(wire
-		(pts
-			(xy 20.32 36.83) (xy 20.32 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71813850-3b9f-45c3-baa8-e5ff1f163f67")
 	)
 	(wire
 		(pts
@@ -2060,16 +2342,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 46.99) (xy 45.72 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c7e997f-ad03-4a88-aaf0-256c4fd82a79")
-	)
-	(wire
-		(pts
 			(xy 90.17 74.93) (xy 90.17 93.98)
 		)
 		(stroke
@@ -2110,16 +2382,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 46.99) (xy 134.62 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fb32197-dbb5-461c-8ca7-e4e3108380ee")
-	)
-	(wire
-		(pts
 			(xy 179.07 85.09) (xy 193.04 85.09)
 		)
 		(stroke
@@ -2140,23 +2402,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 36.83) (xy 54.61 55.88)
+			(xy 54.61 29.21) (xy 54.61 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "84cee61a-ec1d-472a-ba56-5a7b7fd53935")
-	)
-	(wire
-		(pts
-			(xy 54.61 29.21) (xy 54.61 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b014e53-8107-47f8-a589-3aad14573d56")
 	)
 	(wire
 		(pts
@@ -2170,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 36.83) (xy 101.6 55.88)
+			(xy 101.6 29.21) (xy 101.6 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2220,16 +2472,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 46.99) (xy 148.59 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98c2bbe7-3bde-442c-ad91-c6ba8f7bb1a2")
-	)
-	(wire
-		(pts
 			(xy 118.11 133.35) (xy 104.14 133.35)
 		)
 		(stroke
@@ -2250,7 +2492,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 29.21) (xy 129.54 36.83)
+			(xy 129.54 29.21) (xy 129.54 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2300,23 +2542,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 36.83) (xy 82.55 55.88)
+			(xy 82.55 29.21) (xy 82.55 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a619e029-c1a4-4568-8682-cad5f33a7b1b")
-	)
-	(wire
-		(pts
-			(xy 40.64 36.83) (xy 40.64 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a72194ee-766d-4fef-bef8-570cc244b22a")
 	)
 	(wire
 		(pts
@@ -2360,17 +2592,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 46.99) (xy 207.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adbb5018-5b89-4812-9c80-76eb4d43e50e")
-	)
-	(wire
-		(pts
-			(xy 20.32 29.21) (xy 20.32 36.83)
+			(xy 20.32 29.21) (xy 20.32 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2390,16 +2612,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 46.99) (xy 120.65 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0171cda-681d-4d35-9568-ab862b5474ce")
-	)
-	(wire
-		(pts
 			(xy 62.23 93.98) (xy 62.23 114.3)
 		)
 		(stroke
@@ -2407,6 +2619,16 @@
 			(type default)
 		)
 		(uuid "b0844ac4-0df5-48a2-95de-baeae8127dbc")
+	)
+	(wire
+		(pts
+			(xy 34.29 29.21) (xy 34.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31499d3-7287-4d28-bd09-a185de80e03f")
 	)
 	(wire
 		(pts
@@ -2430,13 +2652,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 46.99) (xy 87.63 46.99)
+			(xy 207.01 85.09) (xy 219.71 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b81c3bff-6f06-49a5-b39e-37fac6b900b9")
+		(uuid "b76cc9f2-a595-4d83-8a98-47c369e70330")
 	)
 	(wire
 		(pts
@@ -2450,7 +2672,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 104.14) (xy 205.74 104.14)
+			(xy 193.04 104.14) (xy 219.71 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2480,13 +2702,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 29.21) (xy 68.58 36.83)
+			(xy 193.04 124.46) (xy 219.71 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c22574ea-4a4b-40c0-b53e-65046161ee6d")
+		(uuid "c56c2891-08fa-4ca3-b1a3-e37763d1bac5")
 	)
 	(wire
 		(pts
@@ -2547,26 +2769,6 @@
 			(type default)
 		)
 		(uuid "d21beeb6-cf1f-45ed-b8b3-cd92cab7429c")
-	)
-	(wire
-		(pts
-			(xy 101.6 29.21) (xy 101.6 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d29e7f5e-bed5-47a3-96b5-d37f0dbfbf7f")
-	)
-	(wire
-		(pts
-			(xy 87.63 46.99) (xy 106.68 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2fcffb7-2740-4a83-b2b4-0f0d30efb764")
 	)
 	(wire
 		(pts
@@ -2680,16 +2882,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 46.99) (xy 193.04 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e782a8f8-28d2-41b4-a4ec-d219e0b2bec9")
-	)
-	(wire
-		(pts
 			(xy 118.11 74.93) (xy 118.11 93.98)
 		)
 		(stroke
@@ -2730,16 +2922,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 29.21) (xy 143.51 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef1f7542-5dd3-4f0e-ba60-99275de93c04")
-	)
-	(wire
-		(pts
 			(xy 137.16 104.14) (xy 151.13 104.14)
 		)
 		(stroke
@@ -2747,16 +2929,6 @@
 			(type default)
 		)
 		(uuid "f1ff63aa-624e-485c-8a58-984ef4c88991")
-	)
-	(wire
-		(pts
-			(xy 59.69 46.99) (xy 73.66 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f43cbe1b-85e9-493a-913e-4830151e4d74")
 	)
 	(wire
 		(pts
@@ -2808,6 +2980,160 @@
 		)
 		(uuid "ffef67bf-a2fb-4b96-8bd0-82c43eb6886a")
 	)
+	(global_label "COL4"
+		(shape input)
+		(at 246.38 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02d7f1bb-ff81-400d-b8ce-cf1acadf7d41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.5567 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL11"
+		(shape input)
+		(at 271.78 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05481a1f-f664-48b4-8733-b1cc933bb86f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.8128 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL13"
+		(shape input)
+		(at 271.78 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17a71bbb-c21b-4dc5-8b1f-cb723ff96ef7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.8128 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL14"
+		(shape input)
+		(at 34.29 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cbb3f42-b6db-4d48-8a0b-ed2acc53928d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.29 20.1772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 219.71 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2340b69f-b9bf-4175-994e-811919fecf1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.9566 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 271.78 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25d038a4-2620-46ce-b54c-fe4ce6bbb658")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.6357 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 271.78 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "388ba662-24eb-4491-a8fb-870882c3d97b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.0266 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL5"
 		(shape input)
 		(at 82.55 29.21 90)
@@ -2826,6 +3152,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 246.38 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40102c6a-bad0-44c3-b829-7f3ae7200ba4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.5243 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2874,6 +3222,28 @@
 			)
 		)
 	)
+	(global_label "COL6"
+		(shape input)
+		(at 246.38 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a8b84fe-6abc-4fcb-aee9-3214a9ab211b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.5567 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL8"
 		(shape input)
 		(at 129.54 29.21 90)
@@ -2918,6 +3288,72 @@
 			)
 		)
 	)
+	(global_label "COL9"
+		(shape input)
+		(at 246.38 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "540bdbac-8521-435a-b5e4-da145aebf0a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.5567 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL10"
+		(shape input)
+		(at 271.78 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "558d6425-4912-4424-92c2-caf0ef9da336")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.8128 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 219.71 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5936ad97-a8f7-4da5-9ab7-a715f692fb87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.9566 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL10"
 		(shape input)
 		(at 160.02 29.21 90)
@@ -2931,6 +3367,116 @@
 		(uuid "5fb9a7e2-77fd-43fc-a82a-6fb699764858")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 160.02 20.1772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 246.38 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "619faa9e-571a-4280-858e-97d6ecbe08d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.5567 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 246.38 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61d5f95e-3fd5-44ed-9345-6cbc0b7f50f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.1334 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 271.78 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62045f4a-f69c-485a-a703-9058cbe6d90a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.0266 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 246.38 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "630a7350-f0b3-476a-be75-cea6f1659ef1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.5567 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 271.78 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "728449b8-a8f8-4f38-92a7-5f9b31991340")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.0266 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,6 +3530,94 @@
 			)
 		)
 	)
+	(global_label "COL12"
+		(shape input)
+		(at 271.78 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cf4616a-1915-42c4-b047-9cb8bead2bd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.8128 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 219.71 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91aef376-ca4e-4276-870b-78a720ded568")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.9566 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW5"
+		(shape input)
+		(at 219.71 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "979c10f1-ba5b-4ee8-828f-d409137c948e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.9566 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 219.71 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a022cc6f-b8e4-4be4-9904-7a95d38945df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.9566 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL6"
 		(shape input)
 		(at 101.6 29.21 90)
@@ -3002,6 +3636,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 246.38 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adbf45ea-01f6-46f6-a57b-370afd380546")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.5567 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 246.38 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbfa9636-9cfd-43ec-9428-ae57e125cf1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.5243 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3072,6 +3750,72 @@
 			)
 		)
 	)
+	(global_label "COL14"
+		(shape input)
+		(at 271.78 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cce24b07-4ced-40fd-9a64-82c8da1fbfe9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.8128 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 246.38 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf707ca1-2299-4493-ad83-087ec31ba450")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.5567 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL8"
+		(shape input)
+		(at 246.38 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0b30487-bc54-4adf-a3dc-d99ce1b6bb7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.5567 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL9"
 		(shape input)
 		(at 143.51 29.21 90)
@@ -3094,6 +3838,50 @@
 			)
 		)
 	)
+	(global_label "ROW5"
+		(shape input)
+		(at 271.78 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa53c0e8-1440-40a8-8828-77a8d8943cfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.0266 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 246.38 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fff3c96c-bb9b-46d3-8610-cafa01f2ac5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.5567 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:D_Small")
 		(at 95.25 121.92 90)
@@ -3104,7 +3892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "009d5049-b9d1-482a-b110-1acf299056af")
-		(property "Reference" "D65"
+		(property "Reference" "D46"
 			(at 97.79 120.6499 90)
 			(effects
 				(font
@@ -3176,7 +3964,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D65")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -3192,7 +3980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02871eb5-87ec-45d7-b57c-0d4fec86cb89")
-		(property "Reference" "MX54"
+		(property "Reference" "MX35"
 			(at 106.68 88.9 0)
 			(effects
 				(font
@@ -3244,7 +4032,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX54")
+					(reference "MX35")
 					(unit 1)
 				)
 			)
@@ -3260,7 +4048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "044d1fd5-b138-4cd8-b700-435883e06572")
-		(property "Reference" "MX60"
+		(property "Reference" "MX41"
 			(at 190.5 88.9 0)
 			(effects
 				(font
@@ -3312,7 +4100,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX60")
+					(reference "MX41")
 					(unit 1)
 				)
 			)
@@ -3328,7 +4116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05ca6ea6-1cf5-411c-99e1-b86b50e73487")
-		(property "Reference" "D71"
+		(property "Reference" "D52"
 			(at 181.61 120.6499 90)
 			(effects
 				(font
@@ -3400,7 +4188,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D71")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -3416,7 +4204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "065cee52-f1f6-47b5-a392-70d567923629")
-		(property "Reference" "MX48"
+		(property "Reference" "MX29"
 			(at 22.86 88.9 0)
 			(effects
 				(font
@@ -3468,75 +4256,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 118.11 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0955cb2a-0f37-4b50-813b-74a9b370306b")
-		(property "Reference" "MX7"
-			(at 118.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 118.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 118.11 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 118.11 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "80957047-73a0-4d28-a4e7-666bbcf72aa2")
-		)
-		(pin "1"
-			(uuid "993c8062-c108-4163-a1f8-da7e9575da58")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX7")
+					(reference "MX29")
 					(unit 1)
 				)
 			)
@@ -3552,7 +4272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b14d5df-b861-46a1-9204-27f1fc512c32")
-		(property "Reference" "MX36"
+		(property "Reference" "MX20"
 			(at 92.71 69.85 0)
 			(effects
 				(font
@@ -3604,7 +4324,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX36")
+					(reference "MX20")
 					(unit 1)
 				)
 			)
@@ -3620,7 +4340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bb62255-1b76-4f2c-b75e-c7e1d1cf645f")
-		(property "Reference" "D31"
+		(property "Reference" "D15"
 			(at 27.94 81.2799 90)
 			(effects
 				(font
@@ -3692,7 +4412,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D31")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -3708,7 +4428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f0555fd-304c-496b-b536-6ecca00baee6")
-		(property "Reference" "D64"
+		(property "Reference" "D45"
 			(at 83.82 120.6499 90)
 			(effects
 				(font
@@ -3780,7 +4500,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D64")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -3796,7 +4516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11d2d1df-11bb-4164-a222-45479c7616e4")
-		(property "Reference" "D52"
+		(property "Reference" "D33"
 			(at 83.82 100.3299 90)
 			(effects
 				(font
@@ -3868,7 +4588,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D52")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -3884,7 +4604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12692d73-50bb-4482-bf40-e284f78467f6")
-		(property "Reference" "D72"
+		(property "Reference" "D53"
 			(at 195.58 120.6499 90)
 			(effects
 				(font
@@ -3956,7 +4676,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D72")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -3972,7 +4692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12a6396d-9845-4d57-a6da-5fe317c161ea")
-		(property "Reference" "MX79"
+		(property "Reference" "MX59"
 			(at 162.56 128.27 0)
 			(effects
 				(font
@@ -4024,7 +4744,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX79")
+					(reference "MX59")
 					(unit 1)
 				)
 			)
@@ -4040,7 +4760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "143a6d9a-015f-46fc-870a-7284c30ad6c1")
-		(property "Reference" "MX51"
+		(property "Reference" "MX32"
 			(at 64.77 88.9 0)
 			(effects
 				(font
@@ -4092,7 +4812,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX51")
+					(reference "MX32")
 					(unit 1)
 				)
 			)
@@ -4108,7 +4828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16a2dedf-2407-46d8-90a4-ca6ac0628eb2")
-		(property "Reference" "MX43"
+		(property "Reference" "MX27"
 			(at 190.5 69.85 0)
 			(effects
 				(font
@@ -4160,7 +4880,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX43")
+					(reference "MX27")
 					(unit 1)
 				)
 			)
@@ -4176,7 +4896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18b62bfe-35cd-4221-a3ed-89ff04fe0cee")
-		(property "Reference" "MX17"
+		(property "Reference" "MX4"
 			(at 64.77 50.8 0)
 			(effects
 				(font
@@ -4228,7 +4948,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX17")
+					(reference "MX4")
 					(unit 1)
 				)
 			)
@@ -4244,7 +4964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b4137a8-5855-4532-8c55-aefae834da69")
-		(property "Reference" "D70"
+		(property "Reference" "D51"
 			(at 167.64 120.6499 90)
 			(effects
 				(font
@@ -4316,7 +5036,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D70")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -4332,7 +5052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b928613-e524-4cd5-86a7-64077e4cbe99")
-		(property "Reference" "MX55"
+		(property "Reference" "MX36"
 			(at 120.65 88.9 0)
 			(effects
 				(font
@@ -4384,7 +5104,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX55")
+					(reference "MX36")
 					(unit 1)
 				)
 			)
@@ -4400,7 +5120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b9a0f5f-bcbd-4b95-962e-83c5e41a635f")
-		(property "Reference" "D69"
+		(property "Reference" "D50"
 			(at 153.67 120.6499 90)
 			(effects
 				(font
@@ -4472,7 +5192,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D69")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -4488,7 +5208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c398407-b79f-4f14-b787-cc37d8634483")
-		(property "Reference" "MX37"
+		(property "Reference" "MX21"
 			(at 106.68 69.85 0)
 			(effects
 				(font
@@ -4540,95 +5260,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 73.66 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e2a0f00-58d2-43fa-ad34-bc5c9cec30a5")
-		(property "Reference" "D4"
-			(at 76.2 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 76.2 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 73.66 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1dc55b4c-a33b-47a5-bf77-43f066b1a2b1")
-		)
-		(pin "2"
-			(uuid "e28e7565-4271-4a23-8205-7d9c342561e8")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D4")
+					(reference "MX21")
 					(unit 1)
 				)
 			)
@@ -4644,7 +5276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ecc4e43-4160-4151-a462-b0757cc9629f")
-		(property "Reference" "D51"
+		(property "Reference" "D32"
 			(at 69.85 100.3299 90)
 			(effects
 				(font
@@ -4716,7 +5348,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D51")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -4732,7 +5364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2153f3f5-510c-4458-8644-7b6cc56c518d")
-		(property "Reference" "D68"
+		(property "Reference" "D49"
 			(at 139.7 120.6499 90)
 			(effects
 				(font
@@ -4804,7 +5436,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D68")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -4820,7 +5452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21e8acc9-ab16-4c6c-882d-1f720cff5637")
-		(property "Reference" "MX67"
+		(property "Reference" "MX48"
 			(at 120.65 109.22 0)
 			(effects
 				(font
@@ -4872,7 +5504,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX67")
+					(reference "MX48")
 					(unit 1)
 				)
 			)
@@ -4888,7 +5520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23eea940-7c4b-4128-ae9c-12ca55a404a8")
-		(property "Reference" "MX26"
+		(property "Reference" "MX13"
 			(at 190.5 50.8 0)
 			(effects
 				(font
@@ -4940,7 +5572,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX26")
+					(reference "MX13")
 					(unit 1)
 				)
 			)
@@ -4956,7 +5588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24b2f5fd-40e9-4905-8014-5999e1681191")
-		(property "Reference" "MX66"
+		(property "Reference" "MX47"
 			(at 106.68 109.22 0)
 			(effects
 				(font
@@ -5008,7 +5640,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX66")
+					(reference "MX47")
 					(unit 1)
 				)
 			)
@@ -5024,7 +5656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2729465d-93a7-4819-9445-7e0a6650f13d")
-		(property "Reference" "D15"
+		(property "Reference" "D2"
 			(at 41.91 62.2299 90)
 			(effects
 				(font
@@ -5096,7 +5728,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D15")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5112,7 +5744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29310e9d-f74a-405a-9c4c-c5a6d3a82b0f")
-		(property "Reference" "D33"
+		(property "Reference" "D17"
 			(at 55.88 81.2799 90)
 			(effects
 				(font
@@ -5184,7 +5816,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D33")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -5200,7 +5832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "293762de-7488-4e52-be1f-5a34accb2ea6")
-		(property "Reference" "D19"
+		(property "Reference" "D6"
 			(at 97.79 62.2299 90)
 			(effects
 				(font
@@ -5272,7 +5904,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D19")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5288,7 +5920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ace2e8c-fc69-42da-af2a-c6f3ca6de383")
-		(property "Reference" "MX22"
+		(property "Reference" "MX9"
 			(at 134.62 50.8 0)
 			(effects
 				(font
@@ -5340,7 +5972,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX22")
+					(reference "MX9")
 					(unit 1)
 				)
 			)
@@ -5356,7 +5988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d28a8f5-3cf0-429d-8225-569f55208b03")
-		(property "Reference" "D62"
+		(property "Reference" "D43"
 			(at 55.88 120.6499 90)
 			(effects
 				(font
@@ -5428,7 +6060,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D62")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -5444,7 +6076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d93f5a3-d85a-4683-bd1c-bb1920709738")
-		(property "Reference" "S1"
+		(property "Reference" "S5"
 			(at 111.76 135.7629 0)
 			(effects
 				(font
@@ -5492,7 +6124,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "S1")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -5508,7 +6140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e0ce935-8c89-4fdb-be07-8ce4e7e94d0f")
-		(property "Reference" "D54"
+		(property "Reference" "D35"
 			(at 111.76 100.3299 90)
 			(effects
 				(font
@@ -5580,95 +6212,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 106.68 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f59b906-f1c8-46c1-8c9d-aeb6814974d8")
-		(property "Reference" "D6"
-			(at 109.22 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 109.22 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 106.68 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 106.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 106.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "431d5c83-e435-46a5-81a5-2f16ea7c7982")
-		)
-		(pin "2"
-			(uuid "9cd74d65-7887-46e2-9870-85d651c1309d")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D6")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -5684,7 +6228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fd1720a-7e79-477a-b2ea-0d8edd2e5486")
-		(property "Reference" "MX72"
+		(property "Reference" "MX53"
 			(at 190.5 109.22 0)
 			(effects
 				(font
@@ -5736,7 +6280,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX72")
+					(reference "MX53")
 					(unit 1)
 				)
 			)
@@ -5752,7 +6296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff20a88-e42e-477a-bd08-b6187b450a8d")
-		(property "Reference" "MX62"
+		(property "Reference" "MX43"
 			(at 50.8 109.22 0)
 			(effects
 				(font
@@ -5804,7 +6348,141 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX62")
+					(reference "MX43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-promicroish:Arduino_ProMicro")
+		(at 259.08 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32ba5c04-00b8-40f5-b75d-fd9bf05055bf")
+		(property "Reference" "U1"
+			(at 259.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ProMicro"
+			(at 259.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-promicroish:ProMicro_USBup"
+			(at 259.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Symbol for an Arduino Pro Micro"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e63f34a7-8ba9-4024-9287-5a1fefc60dd0")
+		)
+		(pin "3"
+			(uuid "850e6322-c1c1-4735-8fa8-7ef6f65b9adb")
+		)
+		(pin "2"
+			(uuid "eedb844e-1308-4cd2-acf7-0ee720787edb")
+		)
+		(pin "4"
+			(uuid "b40b81ae-ba5e-4c30-8e15-11d1b36a70e6")
+		)
+		(pin "5"
+			(uuid "8f330b7c-d34c-4089-bb56-d3fb20857f4a")
+		)
+		(pin "6"
+			(uuid "1e7ce028-13a6-4908-b0a0-68dc1660b2dc")
+		)
+		(pin "14"
+			(uuid "5b77c502-0941-4562-872f-7e47428eb04f")
+		)
+		(pin "17"
+			(uuid "b8cd1112-2d06-4809-b1c4-b5712e1f8975")
+		)
+		(pin "19"
+			(uuid "c24948ed-84a3-49e3-8135-7c3e88a2bee3")
+		)
+		(pin "21"
+			(uuid "e95845fa-a6cb-493b-871e-169fbf5e2345")
+		)
+		(pin "24"
+			(uuid "c5a042c6-569a-4c30-9fec-ced6db879f86")
+		)
+		(pin "22"
+			(uuid "1839a32a-ee4b-495b-8220-8c4fb617dbe9")
+		)
+		(pin "9"
+			(uuid "95d5dd72-e0d6-4962-9930-c2d7fac56910")
+		)
+		(pin "8"
+			(uuid "6eb64d59-1946-4d30-b7f1-328c872b190a")
+		)
+		(pin "10"
+			(uuid "0128372a-e075-4b40-bedc-4d5c977c5978")
+		)
+		(pin "12"
+			(uuid "a6dfb615-b5dc-4acd-bb8b-78c1356d8297")
+		)
+		(pin "7"
+			(uuid "2320e84d-7416-4d72-973c-60570b96e57c")
+		)
+		(pin "11"
+			(uuid "ff9da6f2-2591-4bb3-8ba9-062d07baba27")
+		)
+		(pin "15"
+			(uuid "7dd8c035-6c8f-41e1-8721-16ba18b8623f")
+		)
+		(pin "18"
+			(uuid "a4126db0-6df4-4336-a02b-3d871e828b17")
+		)
+		(pin "20"
+			(uuid "139b2023-95ee-44b8-bb9e-5ead2f7af0f1")
+		)
+		(pin "23"
+			(uuid "5d646354-a08b-496e-9493-6a918154ef63")
+		)
+		(pin "13"
+			(uuid "48a12227-30d4-4465-b48f-f4e72233aea6")
+		)
+		(pin "16"
+			(uuid "be2e7443-6e36-4e26-8f61-b142682e456e")
+		)
+		(instances
+			(project ""
+				(path "/a95fccfd-3473-4483-af10-de61d410caed"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5820,7 +6498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "367cff9e-340b-4b87-9f77-a1e1190851ad")
-		(property "Reference" "D20"
+		(property "Reference" "D7"
 			(at 111.76 62.2299 90)
 			(effects
 				(font
@@ -5892,7 +6570,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D20")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5908,7 +6586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "399a0c08-92ed-4173-973e-0eddec8bce8b")
-		(property "Reference" "MX59"
+		(property "Reference" "MX40"
 			(at 176.53 88.9 0)
 			(effects
 				(font
@@ -5960,7 +6638,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX59")
+					(reference "MX40")
 					(unit 1)
 				)
 			)
@@ -5976,7 +6654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cebe666-e077-4f76-b92e-36eb5f29de50")
-		(property "Reference" "D57"
+		(property "Reference" "D38"
 			(at 153.67 100.3299 90)
 			(effects
 				(font
@@ -6048,7 +6726,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D57")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -6063,7 +6741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e31c2d3-ab54-40b6-a0b2-673a1f762b52")
-		(property "Reference" "MX76"
+		(property "Reference" "MX56"
 			(at 78.74 128.27 0)
 			(effects
 				(font
@@ -6115,7 +6793,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX76")
+					(reference "MX56")
 					(unit 1)
 				)
 			)
@@ -6131,7 +6809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46d77a46-a7fc-4110-a017-805c9b053aa4")
-		(property "Reference" "D50"
+		(property "Reference" "D31"
 			(at 55.88 100.3299 90)
 			(effects
 				(font
@@ -6203,7 +6881,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D50")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -6219,7 +6897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "475f464c-7da4-47d3-8dc2-2cd0c0f7be15")
-		(property "Reference" "MX14"
+		(property "Reference" "MX1"
 			(at 22.86 50.8 0)
 			(effects
 				(font
@@ -6271,7 +6949,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX14")
+					(reference "MX1")
 					(unit 1)
 				)
 			)
@@ -6287,7 +6965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48e2ef42-6db4-4d32-81cc-ff23727fc53e")
-		(property "Reference" "MX68"
+		(property "Reference" "MX49"
 			(at 134.62 109.22 0)
 			(effects
 				(font
@@ -6339,7 +7017,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX68")
+					(reference "MX49")
 					(unit 1)
 				)
 			)
@@ -6355,7 +7033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b6fd9fa-fb34-4c06-86f1-d3689f5d6b12")
-		(property "Reference" "MX74"
+		(property "Reference" "MX54"
 			(at 22.86 128.27 0)
 			(effects
 				(font
@@ -6407,7 +7085,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX74")
+					(reference "MX54")
 					(unit 1)
 				)
 			)
@@ -6423,7 +7101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b9a9260-5208-4d5b-9fd6-2184e2c31d9d")
-		(property "Reference" "D53"
+		(property "Reference" "D34"
 			(at 97.79 100.3299 90)
 			(effects
 				(font
@@ -6495,7 +7173,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D53")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -6511,7 +7189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e84c6ee-7fb2-43ea-b477-bad087259ab6")
-		(property "Reference" "MX15"
+		(property "Reference" "MX2"
 			(at 36.83 50.8 0)
 			(effects
 				(font
@@ -6563,7 +7241,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX15")
+					(reference "MX2")
 					(unit 1)
 				)
 			)
@@ -6579,7 +7257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50726b7d-b952-4359-aee8-040a14ab08e7")
-		(property "Reference" "D58"
+		(property "Reference" "D39"
 			(at 167.64 100.3299 90)
 			(effects
 				(font
@@ -6651,7 +7329,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D58")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -6667,7 +7345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5317f6d3-b48c-4a24-a554-436e5880e458")
-		(property "Reference" "MX58"
+		(property "Reference" "MX39"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -6719,7 +7397,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX58")
+					(reference "MX39")
 					(unit 1)
 				)
 			)
@@ -6735,7 +7413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53f65280-e872-4229-9a32-f4f72c24cba5")
-		(property "Reference" "D49"
+		(property "Reference" "D30"
 			(at 41.91 100.3299 90)
 			(effects
 				(font
@@ -6807,183 +7485,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 179.07 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54055979-b71e-4332-a7db-5a1c5f1195df")
-		(property "Reference" "D11"
-			(at 181.61 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 181.61 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 179.07 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 179.07 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 179.07 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 179.07 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b89f35d-58f8-485f-9290-bde3a1acd780")
-		)
-		(pin "2"
-			(uuid "6bfc0030-ceb1-4084-8b85-5db44546f90b")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 148.59 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56bd9c99-b420-4bd7-a58e-c62bca641a12")
-		(property "Reference" "D9"
-			(at 151.13 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 151.13 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 148.59 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 148.59 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 148.59 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dabc3ec-8901-4479-965f-99971ca92f83")
-		)
-		(pin "2"
-			(uuid "65fdf6e9-15d8-4f73-97ce-22699e133ae1")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D9")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -6999,7 +7501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56e031dd-da42-42f0-9a43-42bfde9896b2")
-		(property "Reference" "D80"
+		(property "Reference" "D60"
 			(at 181.61 139.6999 90)
 			(effects
 				(font
@@ -7071,7 +7573,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D80")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -7087,7 +7589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5842f1c7-f56a-4a59-8c41-e8898c21bb54")
-		(property "Reference" "MX18"
+		(property "Reference" "MX5"
 			(at 78.74 50.8 0)
 			(effects
 				(font
@@ -7139,7 +7641,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX18")
+					(reference "MX5")
 					(unit 1)
 				)
 			)
@@ -7155,7 +7657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a3ce30a-c515-485b-87e1-a937deb606f8")
-		(property "Reference" "D16"
+		(property "Reference" "D3"
 			(at 55.88 62.2299 90)
 			(effects
 				(font
@@ -7227,7 +7729,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D16")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7243,7 +7745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aad478e-f7ec-42ce-90d2-6df941eae9c2")
-		(property "Reference" "MX56"
+		(property "Reference" "MX37"
 			(at 134.62 88.9 0)
 			(effects
 				(font
@@ -7295,7 +7797,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX56")
+					(reference "MX37")
 					(unit 1)
 				)
 			)
@@ -7311,7 +7813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c981423-7346-4bc4-b905-5cd0896e6a8d")
-		(property "Reference" "D25"
+		(property "Reference" "D12"
 			(at 181.61 62.2299 90)
 			(effects
 				(font
@@ -7383,7 +7885,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D25")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -7399,7 +7901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "607506a7-f087-4612-87af-1fde5b0798e2")
-		(property "Reference" "MX44"
+		(property "Reference" "MX28"
 			(at 204.47 69.85 0)
 			(effects
 				(font
@@ -7451,7 +7953,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX44")
+					(reference "MX28")
 					(unit 1)
 				)
 			)
@@ -7467,7 +7969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "608444ce-3654-4e57-8630-86741a8d2cce")
-		(property "Reference" "D78"
+		(property "Reference" "D58"
 			(at 153.67 139.6999 90)
 			(effects
 				(font
@@ -7539,7 +8041,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D78")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -7555,7 +8057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "624e85a3-3c58-4e97-8c31-9432688e791d")
-		(property "Reference" "D44"
+		(property "Reference" "D28"
 			(at 209.55 81.2799 90)
 			(effects
 				(font
@@ -7627,7 +8129,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D44")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -7643,7 +8145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62bfb60d-811a-4adc-bdcf-5ae0ca64c6ea")
-		(property "Reference" "MX42"
+		(property "Reference" "MX26"
 			(at 176.53 69.85 0)
 			(effects
 				(font
@@ -7695,7 +8197,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX42")
+					(reference "MX26")
 					(unit 1)
 				)
 			)
@@ -7711,7 +8213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65d48d60-6152-4e76-861c-f1daac7b108f")
-		(property "Reference" "MX70"
+		(property "Reference" "MX51"
 			(at 162.56 109.22 0)
 			(effects
 				(font
@@ -7763,7 +8265,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX70")
+					(reference "MX51")
 					(unit 1)
 				)
 			)
@@ -7779,7 +8281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "671138a2-72ac-4e17-8edb-a1fbdf0cf92c")
-		(property "Reference" "D74"
+		(property "Reference" "D54"
 			(at 27.94 139.6999 90)
 			(effects
 				(font
@@ -7851,7 +8353,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D74")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -7867,7 +8369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67b3d12c-98c2-403e-9c95-1a548309b185")
-		(property "Reference" "D61"
+		(property "Reference" "D42"
 			(at 41.91 120.6499 90)
 			(effects
 				(font
@@ -7939,7 +8441,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D61")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -7955,7 +8457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68bb2736-4aae-41dc-b851-ab9753746164")
-		(property "Reference" "D21"
+		(property "Reference" "D8"
 			(at 125.73 62.2299 90)
 			(effects
 				(font
@@ -8027,7 +8529,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D21")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8043,7 +8545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6965b4bf-b20e-4607-93f7-837fc52d9527")
-		(property "Reference" "MX77"
+		(property "Reference" "MX57"
 			(at 120.65 128.27 0)
 			(effects
 				(font
@@ -8095,7 +8597,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX77")
+					(reference "MX57")
 					(unit 1)
 				)
 			)
@@ -8111,7 +8613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6967ce65-4cb8-487c-9cdc-bfda29453cab")
-		(property "Reference" "D36"
+		(property "Reference" "D20"
 			(at 97.79 81.2799 90)
 			(effects
 				(font
@@ -8183,7 +8685,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D36")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -8199,7 +8701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69bda93e-7b1e-4193-bdcf-fc8ba981c568")
-		(property "Reference" "MX57"
+		(property "Reference" "MX38"
 			(at 148.59 88.9 0)
 			(effects
 				(font
@@ -8251,7 +8753,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX57")
+					(reference "MX38")
 					(unit 1)
 				)
 			)
@@ -8267,7 +8769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c51daf9-a2ff-4491-a624-d3d96e8d793a")
-		(property "Reference" "MX50"
+		(property "Reference" "MX31"
 			(at 50.8 88.9 0)
 			(effects
 				(font
@@ -8319,7 +8821,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX50")
+					(reference "MX31")
 					(unit 1)
 				)
 			)
@@ -8335,7 +8837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d0c1d8f-a249-4e4d-b24f-ebdb19c17797")
-		(property "Reference" "D59"
+		(property "Reference" "D40"
 			(at 181.61 100.3299 90)
 			(effects
 				(font
@@ -8407,7 +8909,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D59")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -8415,7 +8917,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 218.44 60.96 0)
+		(at 217.17 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8423,8 +8925,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d4db520-79fd-4ba1-9824-44b77fd72eb0")
-		(property "Reference" "S5"
-			(at 224.79 59.5629 0)
+		(property "Reference" "S1"
+			(at 223.52 55.7529 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8433,7 +8935,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 224.79 62.1029 0)
+			(at 223.52 58.2929 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8443,7 +8945,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
-			(at 218.44 60.96 0)
+			(at 217.17 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,7 +8954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 60.96 0)
+			(at 217.17 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8461,7 +8963,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 218.44 60.96 0)
+			(at 217.17 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8974,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "S5")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -8488,7 +8990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d7722d3-c34e-4e55-9d84-7defeaf3a0c5")
-		(property "Reference" "MX31"
+		(property "Reference" "MX15"
 			(at 22.86 69.85 0)
 			(effects
 				(font
@@ -8540,7 +9042,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX31")
+					(reference "MX15")
 					(unit 1)
 				)
 			)
@@ -8556,7 +9058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d9d2153-9d48-4c2b-b410-8bd6f305308c")
-		(property "Reference" "MX78"
+		(property "Reference" "MX58"
 			(at 148.59 128.27 0)
 			(effects
 				(font
@@ -8608,7 +9110,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX78")
+					(reference "MX58")
 					(unit 1)
 				)
 			)
@@ -8624,7 +9126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e1af4c1-c628-44df-ae5f-54f015ee0e66")
-		(property "Reference" "D37"
+		(property "Reference" "D21"
 			(at 111.76 81.2799 90)
 			(effects
 				(font
@@ -8696,74 +9198,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 43.18 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e2e2e5e-6f88-4c8c-9c2c-d24fc65f5c38")
-		(property "Reference" "MX2"
-			(at 43.18 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 43.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cf995dd1-0e1e-4f17-9df1-15f1eedac5d8")
-		)
-		(pin "1"
-			(uuid "4ba99003-ef20-4ac1-9e22-eedb5b32075e")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX2")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -8779,7 +9214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ec5a2a4-2441-4868-8f43-6dc11a28dac2")
-		(property "Reference" "D34"
+		(property "Reference" "D18"
 			(at 69.85 81.2799 90)
 			(effects
 				(font
@@ -8851,7 +9286,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D34")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -8867,7 +9302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fa5f0f5-9ed8-49c5-b0e7-70464acd6fda")
-		(property "Reference" "MX20"
+		(property "Reference" "MX7"
 			(at 106.68 50.8 0)
 			(effects
 				(font
@@ -8919,75 +9354,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 85.09 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "740f359e-e795-4f24-8956-7ef1bcd3e930")
-		(property "Reference" "MX5"
-			(at 85.09 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 85.09 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 85.09 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 85.09 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20c2d196-b4f3-453e-bfa9-cff2dba66633")
-		)
-		(pin "1"
-			(uuid "5b0dceac-ca0b-4c74-95c9-f76a9125b68b")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX5")
+					(reference "MX7")
 					(unit 1)
 				)
 			)
@@ -9003,7 +9370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "745c4c41-b70e-4b0f-8fbc-b10bad8d8981")
-		(property "Reference" "D79"
+		(property "Reference" "D59"
 			(at 167.64 139.6999 90)
 			(effects
 				(font
@@ -9075,7 +9442,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D79")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -9091,7 +9458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "771da284-a2a9-4027-b362-784bb7b553f3")
-		(property "Reference" "D40"
+		(property "Reference" "D24"
 			(at 153.67 81.2799 90)
 			(effects
 				(font
@@ -9163,75 +9530,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 176.53 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77c5aa92-61f6-4628-bd08-0115028f44a7")
-		(property "Reference" "MX11"
-			(at 176.53 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 176.53 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 176.53 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee9c5900-5618-4e10-a713-8e4f53057c9f")
-		)
-		(pin "1"
-			(uuid "23f9950b-7e6f-496a-9832-beb17c98366e")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX11")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -9247,7 +9546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79914ec9-2a69-4d19-93f6-6fb1b6879d15")
-		(property "Reference" "MX63"
+		(property "Reference" "MX44"
 			(at 64.77 109.22 0)
 			(effects
 				(font
@@ -9299,95 +9598,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 87.63 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cf6ec19-d592-46e1-a1d0-3287e948b301")
-		(property "Reference" "D5"
-			(at 90.17 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 90.17 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 87.63 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 87.63 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 87.63 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 87.63 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2badc1a1-c774-43aa-a950-2a6c9edeae34")
-		)
-		(pin "2"
-			(uuid "9bfa13c9-f551-43b5-97d3-eedcfc4f8e20")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D5")
+					(reference "MX44")
 					(unit 1)
 				)
 			)
@@ -9403,7 +9614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80f7550d-7370-4312-bb90-9d25e4fcbf13")
-		(property "Reference" "D26"
+		(property "Reference" "D13"
 			(at 195.58 62.2299 90)
 			(effects
 				(font
@@ -9475,163 +9686,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 120.65 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81725b06-26d2-43f1-bfb4-9f17819c766d")
-		(property "Reference" "D7"
-			(at 123.19 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 123.19 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 120.65 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 120.65 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 120.65 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d519b462-273e-4cf5-87ff-a19e5c76deb2")
-		)
-		(pin "2"
-			(uuid "caa41d3f-c7fd-408b-9504-3b10f5c69b67")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 71.12 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8385b8b7-0604-429f-a4e2-0c68ded0f9f4")
-		(property "Reference" "MX4"
-			(at 71.12 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 71.12 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 71.12 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 71.12 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8e93f5f3-742a-4547-8eb1-c065f26a6d5c")
-		)
-		(pin "1"
-			(uuid "ab5a78c4-fd2e-4c6e-8a6c-b8558eb9a98d")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX4")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -9647,7 +9702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "839ccd2a-9c4b-4126-a8e9-b4d97176e24d")
-		(property "Reference" "MX52"
+		(property "Reference" "MX33"
 			(at 78.74 88.9 0)
 			(effects
 				(font
@@ -9699,7 +9754,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX52")
+					(reference "MX33")
 					(unit 1)
 				)
 			)
@@ -9715,7 +9770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "853c6d4e-00fb-4dcc-81ae-5b13ebe98603")
-		(property "Reference" "S3"
+		(property "Reference" "S4"
 			(at 214.63 117.9829 0)
 			(effects
 				(font
@@ -9763,7 +9818,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "S3")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -9779,7 +9834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8786ebdc-def2-4546-a7c8-090e0320d8fa")
-		(property "Reference" "D48"
+		(property "Reference" "D29"
 			(at 27.94 100.3299 90)
 			(effects
 				(font
@@ -9851,7 +9906,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D48")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -9867,7 +9922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87f18c7c-a241-4826-9c17-496f57d57a72")
-		(property "Reference" "MX80"
+		(property "Reference" "MX60"
 			(at 176.53 128.27 0)
 			(effects
 				(font
@@ -9919,7 +9974,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX80")
+					(reference "MX60")
 					(unit 1)
 				)
 			)
@@ -9935,7 +9990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88708c93-1355-428a-8edf-e7abee3474c4")
-		(property "Reference" "D18"
+		(property "Reference" "D5"
 			(at 83.82 62.2299 90)
 			(effects
 				(font
@@ -10007,7 +10062,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D18")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10023,7 +10078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "897cc2d1-91aa-448c-8254-e24c10fb32e8")
-		(property "Reference" "D41"
+		(property "Reference" "D25"
 			(at 167.64 81.2799 90)
 			(effects
 				(font
@@ -10095,7 +10150,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D41")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -10111,7 +10166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89f0e30e-49a7-45a9-afa0-513842307c8f")
-		(property "Reference" "S4"
+		(property "Reference" "S2"
 			(at 215.9 96.3929 0)
 			(effects
 				(font
@@ -10159,95 +10214,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "S4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 134.62 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a796405-7eca-4d22-9c22-18c0182000b7")
-		(property "Reference" "D8"
-			(at 137.16 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 137.16 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 134.62 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 134.62 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 134.62 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c555835a-2283-4fdc-8eb4-5b299b6270c2")
-		)
-		(pin "2"
-			(uuid "3e502610-da61-443f-8536-ea9c166a5134")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D8")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -10263,7 +10230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ba3e823-e384-49cb-a964-ae7feafd4c14")
-		(property "Reference" "MX16"
+		(property "Reference" "MX3"
 			(at 50.8 50.8 0)
 			(effects
 				(font
@@ -10315,7 +10282,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX16")
+					(reference "MX3")
 					(unit 1)
 				)
 			)
@@ -10331,7 +10298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bae0ce6-ec0b-441b-827a-d780af65e66a")
-		(property "Reference" "S2"
+		(property "Reference" "S3"
 			(at 26.67 116.7129 0)
 			(effects
 				(font
@@ -10379,7 +10346,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "S2")
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -10395,7 +10362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c515e70-784f-44b4-88bc-ec9843c1f316")
-		(property "Reference" "D23"
+		(property "Reference" "D10"
 			(at 153.67 62.2299 90)
 			(effects
 				(font
@@ -10467,7 +10434,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D23")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -10483,7 +10450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ce59ff7-a973-4693-a918-85dc463fc922")
-		(property "Reference" "MX32"
+		(property "Reference" "MX16"
 			(at 36.83 69.85 0)
 			(effects
 				(font
@@ -10535,7 +10502,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX32")
+					(reference "MX16")
 					(unit 1)
 				)
 			)
@@ -10551,7 +10518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d254ea6-29e6-469d-8f7e-eb2c3fada3e1")
-		(property "Reference" "MX34"
+		(property "Reference" "MX18"
 			(at 64.77 69.85 0)
 			(effects
 				(font
@@ -10603,7 +10570,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX34")
+					(reference "MX18")
 					(unit 1)
 				)
 			)
@@ -10619,7 +10586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e38cddd-a9f4-4e03-855f-cd6121e4f8ce")
-		(property "Reference" "MX40"
+		(property "Reference" "MX24"
 			(at 148.59 69.85 0)
 			(effects
 				(font
@@ -10671,7 +10638,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX40")
+					(reference "MX24")
 					(unit 1)
 				)
 			)
@@ -10687,7 +10654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f89d073-7f2c-4f36-87a6-e69159881663")
-		(property "Reference" "MX81"
+		(property "Reference" "MX61"
 			(at 190.5 128.27 0)
 			(effects
 				(font
@@ -10739,143 +10706,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 132.08 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fa3a01d-1dc8-4e71-8ef1-68f9479b90cc")
-		(property "Reference" "MX8"
-			(at 132.08 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 132.08 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6cb6b718-034a-4818-ae6e-36da164a6fac")
-		)
-		(pin "1"
-			(uuid "b2dd95f2-5418-4c8c-9a84-a8fe30b786ef")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 22.86 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fc7b4c6-657c-44a9-95f2-35978347ed17")
-		(property "Reference" "MX1"
-			(at 22.86 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 22.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 22.86 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 22.86 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7560f2ef-b992-4672-95f5-f6e8b43e342c")
-		)
-		(pin "1"
-			(uuid "1cbf97f5-30e7-4b55-a12b-f6428303088a")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX1")
+					(reference "MX61")
 					(unit 1)
 				)
 			)
@@ -10891,7 +10722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94ca673e-3261-486e-a415-1fec82b004e7")
-		(property "Reference" "D38"
+		(property "Reference" "D22"
 			(at 125.73 81.2799 90)
 			(effects
 				(font
@@ -10963,7 +10794,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D38")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -10979,7 +10810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9580b64a-4a32-467d-b3e8-b9a2ed6cae55")
-		(property "Reference" "MX39"
+		(property "Reference" "MX23"
 			(at 134.62 69.85 0)
 			(effects
 				(font
@@ -11031,7 +10862,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX39")
+					(reference "MX23")
 					(unit 1)
 				)
 			)
@@ -11047,7 +10878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "966c7c95-bf5e-4982-8e02-bd54c658f232")
-		(property "Reference" "D67"
+		(property "Reference" "D48"
 			(at 125.73 120.6499 90)
 			(effects
 				(font
@@ -11119,7 +10950,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D67")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -11135,7 +10966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b3aa8fd-33ea-4d35-b442-4c95c07a2d3e")
-		(property "Reference" "D81"
+		(property "Reference" "D61"
 			(at 195.58 139.6999 90)
 			(effects
 				(font
@@ -11207,7 +11038,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D81")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -11223,7 +11054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d268d6a-843e-47e4-b939-aff2985b0b48")
-		(property "Reference" "MX19"
+		(property "Reference" "MX6"
 			(at 92.71 50.8 0)
 			(effects
 				(font
@@ -11275,7 +11106,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX19")
+					(reference "MX6")
 					(unit 1)
 				)
 			)
@@ -11291,7 +11122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e566859-528b-4b2b-9d74-3fd971faa8e8")
-		(property "Reference" "D27"
+		(property "Reference" "D14"
 			(at 209.55 62.2299 90)
 			(effects
 				(font
@@ -11363,7 +11194,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D27")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -11379,7 +11210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a03054e6-b02d-4cf3-b0fb-678df15b5528")
-		(property "Reference" "D63"
+		(property "Reference" "D44"
 			(at 69.85 120.6499 90)
 			(effects
 				(font
@@ -11451,7 +11282,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D63")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -11467,7 +11298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0a9a5df-081b-4b8b-9acd-e8065aa64a6b")
-		(property "Reference" "MX64"
+		(property "Reference" "MX45"
 			(at 78.74 109.22 0)
 			(effects
 				(font
@@ -11519,7 +11350,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX64")
+					(reference "MX45")
 					(unit 1)
 				)
 			)
@@ -11535,7 +11366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3de8d9e-70ae-4199-bcb3-f2c993df886d")
-		(property "Reference" "D32"
+		(property "Reference" "D16"
 			(at 41.91 81.2799 90)
 			(effects
 				(font
@@ -11607,7 +11438,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D32")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -11623,7 +11454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4b65194-c8d6-4fe0-9238-0ec5e48e6cd6")
-		(property "Reference" "D43"
+		(property "Reference" "D27"
 			(at 195.58 81.2799 90)
 			(effects
 				(font
@@ -11695,7 +11526,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D43")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -11711,7 +11542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a51e429e-bc85-493b-892b-638c82181624")
-		(property "Reference" "D77"
+		(property "Reference" "D57"
 			(at 125.73 139.6999 90)
 			(effects
 				(font
@@ -11783,7 +11614,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D77")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -11799,7 +11630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a61d2751-b46a-401f-85b6-b7b943d8d15a")
-		(property "Reference" "MX21"
+		(property "Reference" "MX8"
 			(at 120.65 50.8 0)
 			(effects
 				(font
@@ -11851,163 +11682,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 25.4 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a805971b-376a-47f7-a869-c6cd83177e32")
-		(property "Reference" "D1"
-			(at 27.94 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 27.94 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 25.4 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 25.4 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 25.4 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 25.4 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d9294ae-9e9a-4324-9b89-d0e96c7d27ae")
-		)
-		(pin "2"
-			(uuid "45c0128f-4dd8-446f-b8b3-b37d5075e088")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 204.47 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a881fec5-78e6-4938-8291-6685304dc793")
-		(property "Reference" "MX13"
-			(at 204.47 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 204.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 204.47 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 204.47 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63423dc6-a2ca-4284-8356-6f855751801b")
-		)
-		(pin "1"
-			(uuid "fd75602e-462d-4bc4-b593-1002c578b6eb")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX13")
+					(reference "MX8")
 					(unit 1)
 				)
 			)
@@ -12023,7 +11698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acdd411e-8720-47b9-ab2d-0c88e139fddf")
-		(property "Reference" "D24"
+		(property "Reference" "D11"
 			(at 167.64 62.2299 90)
 			(effects
 				(font
@@ -12095,7 +11770,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D24")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -12111,7 +11786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aedeea18-1da7-4983-a03c-44428a7d8a7e")
-		(property "Reference" "D14"
+		(property "Reference" "D1"
 			(at 27.94 62.2299 90)
 			(effects
 				(font
@@ -12183,7 +11858,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D14")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12199,7 +11874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af6d1ce6-2773-4e21-8466-89bd0fed5761")
-		(property "Reference" "D75"
+		(property "Reference" "D55"
 			(at 55.88 139.6999 90)
 			(effects
 				(font
@@ -12271,231 +11946,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 146.05 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1068c48-9865-4b21-8d87-fa3eb0222d6e")
-		(property "Reference" "MX9"
-			(at 146.05 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 146.05 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 146.05 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 146.05 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9e66e2ba-2594-493a-bee5-b06310be1075")
-		)
-		(pin "1"
-			(uuid "342f0c07-d9b7-4512-912e-75ebf3668cfa")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 57.15 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3176907-06e0-4e42-aef4-0f8987239726")
-		(property "Reference" "MX3"
-			(at 57.15 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 57.15 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae71b1d0-1218-4f23-8416-1595e3741d7e")
-		)
-		(pin "1"
-			(uuid "3a1ff596-8c5d-48a4-a8a3-35778eafffa5")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 193.04 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b52524ac-b667-4d5b-8d56-7f636eb112be")
-		(property "Reference" "D12"
-			(at 195.58 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 195.58 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 193.04 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 193.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 193.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 193.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ce9def9-ed7a-4409-a9cb-5794670f68f7")
-		)
-		(pin "2"
-			(uuid "6ba72a98-163f-4e21-9b78-f881404c7d38")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D12")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -12511,7 +11962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba2cfeeb-bd53-4e1b-b3d1-55b6974ea5fe")
-		(property "Reference" "MX53"
+		(property "Reference" "MX34"
 			(at 92.71 88.9 0)
 			(effects
 				(font
@@ -12563,75 +12014,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 104.14 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba692185-570c-4b7b-98c0-c8d4d5b59ae5")
-		(property "Reference" "MX6"
-			(at 104.14 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 104.14 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 104.14 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 104.14 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "83e6a581-a042-4b35-8235-5715079c10bd")
-		)
-		(pin "1"
-			(uuid "811ebe60-9196-4302-9274-236964484f53")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX6")
+					(reference "MX34")
 					(unit 1)
 				)
 			)
@@ -12647,7 +12030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba8a4e4d-ad6e-465f-be05-077fd9ccf3b0")
-		(property "Reference" "D39"
+		(property "Reference" "D23"
 			(at 139.7 81.2799 90)
 			(effects
 				(font
@@ -12719,7 +12102,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D39")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -12735,7 +12118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0c63d96-3eff-401f-b883-ccdf5733e8df")
-		(property "Reference" "MX49"
+		(property "Reference" "MX30"
 			(at 36.83 88.9 0)
 			(effects
 				(font
@@ -12787,7 +12170,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX49")
+					(reference "MX30")
 					(unit 1)
 				)
 			)
@@ -12803,7 +12186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c188478c-701e-4739-8dc4-faedb5882408")
-		(property "Reference" "D35"
+		(property "Reference" "D19"
 			(at 83.82 81.2799 90)
 			(effects
 				(font
@@ -12875,7 +12258,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D35")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -12891,7 +12274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c39a23f8-462e-4c2e-a15f-cdd385dc3c98")
-		(property "Reference" "D17"
+		(property "Reference" "D4"
 			(at 69.85 62.2299 90)
 			(effects
 				(font
@@ -12963,95 +12346,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 165.1 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c840d418-66a4-4a51-aa4d-f7a50e937096")
-		(property "Reference" "D10"
-			(at 167.64 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 167.64 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 165.1 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 165.1 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 165.1 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 165.1 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9118a248-7503-45e8-880f-a5e676984433")
-		)
-		(pin "2"
-			(uuid "dd73d2cd-6e4e-4e70-84e5-572ba76a8e15")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D10")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13067,7 +12362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb7075b2-3ee9-4d43-bf83-e166c0d0b367")
-		(property "Reference" "MX38"
+		(property "Reference" "MX22"
 			(at 120.65 69.85 0)
 			(effects
 				(font
@@ -13119,7 +12414,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX38")
+					(reference "MX22")
 					(unit 1)
 				)
 			)
@@ -13135,7 +12430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfc2fac8-7fd7-4fe7-b9df-c63dc0efddc6")
-		(property "Reference" "D42"
+		(property "Reference" "D26"
 			(at 181.61 81.2799 90)
 			(effects
 				(font
@@ -13207,7 +12502,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D42")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -13223,7 +12518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0326c6d-23c8-4e31-893f-f4e5f6f36e1c")
-		(property "Reference" "MX69"
+		(property "Reference" "MX50"
 			(at 148.59 109.22 0)
 			(effects
 				(font
@@ -13275,7 +12570,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX69")
+					(reference "MX50")
 					(unit 1)
 				)
 			)
@@ -13291,7 +12586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2a7d812-1464-4bb7-baae-541c101532df")
-		(property "Reference" "D22"
+		(property "Reference" "D9"
 			(at 139.7 62.2299 90)
 			(effects
 				(font
@@ -13363,95 +12658,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 59.69 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d561c3f0-bcc4-4de0-adb5-de0e80f5fa08")
-		(property "Reference" "D3"
-			(at 62.23 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 62.23 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 59.69 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 59.69 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 59.69 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 59.69 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87ae2ff8-9670-47fe-8208-a1d55d9e465e")
-		)
-		(pin "2"
-			(uuid "d5b28c71-698b-4fc6-a015-0e22e7e150d3")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D3")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -13467,7 +12674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d76df2df-8159-4bcc-90bf-a803e7a2289a")
-		(property "Reference" "MX25"
+		(property "Reference" "MX12"
 			(at 176.53 50.8 0)
 			(effects
 				(font
@@ -13519,7 +12726,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX25")
+					(reference "MX12")
 					(unit 1)
 				)
 			)
@@ -13535,7 +12742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7ffb6e6-543d-46e4-868a-e2b8a6fad5b6")
-		(property "Reference" "MX71"
+		(property "Reference" "MX52"
 			(at 176.53 109.22 0)
 			(effects
 				(font
@@ -13587,7 +12794,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX71")
+					(reference "MX52")
 					(unit 1)
 				)
 			)
@@ -13603,7 +12810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d80d9d87-b34e-4ca7-a3c1-e215418f081b")
-		(property "Reference" "D76"
+		(property "Reference" "D56"
 			(at 83.82 139.6999 90)
 			(effects
 				(font
@@ -13675,7 +12882,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D76")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -13691,7 +12898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9bd9819-ce47-48df-85b4-81a33b5b8542")
-		(property "Reference" "MX24"
+		(property "Reference" "MX11"
 			(at 162.56 50.8 0)
 			(effects
 				(font
@@ -13743,7 +12950,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX24")
+					(reference "MX11")
 					(unit 1)
 				)
 			)
@@ -13759,7 +12966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddd2e1ef-ef08-45bc-b494-488a88f0e7e1")
-		(property "Reference" "MX35"
+		(property "Reference" "MX19"
 			(at 78.74 69.85 0)
 			(effects
 				(font
@@ -13811,75 +13018,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 162.56 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df3e7902-b926-4961-9325-c1a031637ad5")
-		(property "Reference" "MX10"
-			(at 162.56 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 162.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 162.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 162.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f4f99ae-a4f9-4acb-8aa5-be60d80f9225")
-		)
-		(pin "1"
-			(uuid "0f3b918e-bc58-46d3-a739-c5af1672fee1")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX10")
+					(reference "MX19")
 					(unit 1)
 				)
 			)
@@ -13895,7 +13034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfb1887a-e2c6-4793-af05-6132b2d148cd")
-		(property "Reference" "D66"
+		(property "Reference" "D47"
 			(at 111.76 120.6499 90)
 			(effects
 				(font
@@ -13967,95 +13106,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 45.72 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1edadf2-4236-4d81-b345-9de4f59a6de3")
-		(property "Reference" "D2"
-			(at 48.26 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 48.26 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 45.72 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 45.72 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 45.72 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22d85c47-f028-45f1-94b8-9f868c6eb90d")
-		)
-		(pin "2"
-			(uuid "7b8236b1-2c59-4525-8dca-ca45f0662410")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D2")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -14071,7 +13122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e741effa-87a9-4fe9-8bfa-7c7017e26f3f")
-		(property "Reference" "MX33"
+		(property "Reference" "MX17"
 			(at 50.8 69.85 0)
 			(effects
 				(font
@@ -14123,7 +13174,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX33")
+					(reference "MX17")
 					(unit 1)
 				)
 			)
@@ -14139,7 +13190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea8bdc2e-3872-4ee4-a067-f55d1cc33071")
-		(property "Reference" "D60"
+		(property "Reference" "D41"
 			(at 195.58 100.3299 90)
 			(effects
 				(font
@@ -14211,7 +13262,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D60")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -14227,7 +13278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eafbe86b-1419-4674-8b7a-164ed3cc9669")
-		(property "Reference" "MX75"
+		(property "Reference" "MX55"
 			(at 50.8 128.27 0)
 			(effects
 				(font
@@ -14279,7 +13330,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX75")
+					(reference "MX55")
 					(unit 1)
 				)
 			)
@@ -14295,7 +13346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee0b614c-ff0e-4a3d-8cfd-b80595536feb")
-		(property "Reference" "MX27"
+		(property "Reference" "MX14"
 			(at 204.47 50.8 0)
 			(effects
 				(font
@@ -14347,7 +13398,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX27")
+					(reference "MX14")
 					(unit 1)
 				)
 			)
@@ -14363,7 +13414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef3217ab-535c-4ab9-bc88-608067f87edf")
-		(property "Reference" "MX41"
+		(property "Reference" "MX25"
 			(at 162.56 69.85 0)
 			(effects
 				(font
@@ -14415,7 +13466,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX41")
+					(reference "MX25")
 					(unit 1)
 				)
 			)
@@ -14431,7 +13482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efefe388-4991-48bc-b745-f3a39f1ccb33")
-		(property "Reference" "MX61"
+		(property "Reference" "MX42"
 			(at 36.83 109.22 0)
 			(effects
 				(font
@@ -14483,7 +13534,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX61")
+					(reference "MX42")
 					(unit 1)
 				)
 			)
@@ -14499,7 +13550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f08b7a8f-97e7-4946-9068-5ff1e0dd6868")
-		(property "Reference" "MX65"
+		(property "Reference" "MX46"
 			(at 92.71 109.22 0)
 			(effects
 				(font
@@ -14551,75 +13602,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 190.5 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f28c657f-8133-4070-a1f0-a0a1c3687eb5")
-		(property "Reference" "MX12"
-			(at 190.5 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 190.5 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 190.5 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 190.5 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c9223498-f12c-487f-b206-cf1d38e1a5b1")
-		)
-		(pin "1"
-			(uuid "5b0c2e7c-4465-4f52-a81e-5f6da1842f09")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX12")
+					(reference "MX46")
 					(unit 1)
 				)
 			)
@@ -14635,7 +13618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3eeb36d-d01f-4fad-a0b8-482e067032b6")
-		(property "Reference" "D56"
+		(property "Reference" "D37"
 			(at 139.7 100.3299 90)
 			(effects
 				(font
@@ -14707,95 +13690,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 207.01 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fae758e2-d679-4928-933a-b8fbd84ab6b2")
-		(property "Reference" "D13"
-			(at 209.55 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 209.55 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 207.01 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b34862f-1e1d-4bfe-815b-2d143242a3b9")
-		)
-		(pin "2"
-			(uuid "6dfd7033-eb92-4632-af48-5bbc80904aec")
-		)
-		(instances
-			(project "pcb"
-				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D13")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -14811,7 +13706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdde3db3-6d66-445b-b250-bf1f28d87a36")
-		(property "Reference" "D55"
+		(property "Reference" "D36"
 			(at 125.73 100.3299 90)
 			(effects
 				(font
@@ -14883,7 +13778,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "D55")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -14899,7 +13794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffdc8590-4da4-499c-892f-9e7c3e648b1e")
-		(property "Reference" "MX23"
+		(property "Reference" "MX10"
 			(at 148.59 50.8 0)
 			(effects
 				(font
@@ -14951,7 +13846,7 @@
 		(instances
 			(project "pcb"
 				(path "/a95fccfd-3473-4483-af10-de61d410caed"
-					(reference "MX23")
+					(reference "MX10")
 					(unit 1)
 				)
 			)
