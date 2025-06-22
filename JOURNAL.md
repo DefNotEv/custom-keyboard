@@ -45,3 +45,14 @@ i finally figured out how to make a pcb 😭. why are keyboards so much more com
 
 ## 11:39 AM
 i didn't forget about this i've been struggling to trace the pcb for the past 24 hours i have no idea what i'm doing i'll update this journal when i figure it out i'm losing my mind
+
+# June 21st
+
+## 8:52 PM
+it has come to my attention i have severely overestimated myself and we're gonna be compeltely switching up!!!! 
+
+well. the tutorial i was following has two parts and is supposed to have a part three. but it hasn't come out. so like. yeah. we are going to a basic 60% keyboard. much easier to wire. much easier for my mental health. i have the whole month to try and build a more complicated keyboard. so we're going to stick to the basics first. pro micro to make my life easier. i pinky swear i will make a tkl by the end of this though.
+
+20 hours of my life bruh.
+
+anyway yeah. how's that for documenting everything i do 😭
