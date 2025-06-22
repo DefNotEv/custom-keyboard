@@ -62,4 +62,8 @@ I GOT IT! pcb is done now i have to waste my life doing cad. look at this though
 ![pcb](images/pcb2.png)
 
 ## 10:05 PM
-nvm i messed up the wiring i gotta redo it give me another hour. on a side note, can we please get wakatime on kicad because i could use this for the summer program thing 🤧
+nvm i messed up the wiring i gotta redo it give me another hour. on a side note, can we please get wakatime on kicad because i could use this for the summer program thing 
+
+## 10:44 PM 
+
+OK CHAT WE OFFICIALLY GOOD TIME TO LOCK IN FOR CAD
